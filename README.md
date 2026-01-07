@@ -167,11 +167,12 @@ High-level summary (details in `experiments_log.md`):
 * The inference CLI is meant as a small “demo”; CIFAR-10 is very small and domain-limited.
 * Checkpoints are architecture-specific. Loading a checkpoint with the wrong `--arch` will fail.
 * Training speed depends heavily on CPU dataloading and augmentations (`num_workers`, etc.).
-* Only EXPERIMENT 0 (BASE), EXPERIMENT 15 and EXPERIMENT 21 checkpoints are included.
+* EXPERIMENT 0 (BASE), EXPERIMENT 15 and EXPERIMENT 21 checkpoints are included in resources.
 
 ---
 
 ## License
 
 MIT
+
 
