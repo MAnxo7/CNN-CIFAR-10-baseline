@@ -9,7 +9,7 @@ A small PyTorch project where I trained a CNN on **CIFAR-10** and iteratively im
 
 ## Results (best runs)
 
-- Best eval accuracy (my runs): **~0.865** (see `EXPERIMENT 20/21`) (**“Best checkpoint: exp21_best.pt (downloable from releases)”**)
+- Best eval accuracy (my runs): **~0.865** (see `EXPERIMENT 20/21`) (**“Best checkpoint: exp21_best.pt [downloable from releases]”**)
 - Main finding: **increasing feature depth helped more than increasing channel capacity** (for my setup)
 
 For the full experiment history and decisions, see: **`experiments_log.md`**.
@@ -174,6 +174,7 @@ High-level summary (details in `experiments_log.md`):
 ## License
 
 MIT
+
 
 
 
